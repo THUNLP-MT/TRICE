@@ -23,7 +23,7 @@ The implementation is on top of the open-source NMT toolkit [THUMT](https://gith
 
 ## Contents
 * [Prerequisites](#Prerequisites)
-* [Pretrained&#32;model](#Pretrained&#32;model)
+* [Pretrained&#32;model](#Pretrained-model)
 * [Finetuning](#Finetuning)
 * [Inference](#Inference)
 * [Contact](#Contact)
