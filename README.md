@@ -54,7 +54,7 @@ python ${path_to_TRICE}/thumt/bin/trainer.py \
     --model transformer --half --hparam_set big \
     --output single_finetuned \
     --parameters \
-fixed_batch_size=false,batch_size=820,train_steps=120000,update_cycle=5,device_list=[$devs],\
+fixed_batch_size=false,batch_size=820,train_steps=120000,update_cycle=5,device_list=[0,1,2,3],\
 keep_checkpoint_max=2,save_checkpoint_steps=2000,\
 eval_steps=2001,decode_alpha=1.0,decode_batch_size=16,keep_top_checkpoint_max=1,\
 attention_dropout=0.1,relu_dropout=0.1,residual_dropout=0.1,learning_rate=5e-05,warmup_steps=4000,initial_learning_rate=5e-8,\
